@@ -19,7 +19,7 @@ This board contains
 - EMST M15T2G16128A -2G DDR3.
 - EMST F59L1G81LB - 128M NAND.
 - Populated Uart2 port. 
-- Two Push button labled 'SW1 RESET' and 'SW2'.
+- Two Push buttons labled 'SW1 RESET' and 'SW2'.
 - A unpopulated micro-usb named USB1.
 - Connection for the JOVE2 JVE-S2 Lidar.
 - Connection to an external micro USB debug port. 
