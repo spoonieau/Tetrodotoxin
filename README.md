@@ -29,5 +29,5 @@ This board contains
 This board contains
 - GigaDevice GD32F10x Arm 32-bit MCU.
 - Battery connection power disbrution and charging circuts.
-- All of the units function come from this board.
+- All of the units functions come from this board.
 - Populated five pin debug port.   
