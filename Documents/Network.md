@@ -385,4 +385,9 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 1253.05 seconds
            Raw packets sent: 2630 (122.034KB) | Rcvd: 2014 (115.420KB)
 ```
-
+### Connections when Synced and Added to eufy App
+```
+18.156.61.1:443	ty-eu-storage-permanent.tuyaeu.com	
+3.125.199.146:443	a2.tuyaeu.com	443
+182.92.12.11:123	182.92.12.11	
+```
