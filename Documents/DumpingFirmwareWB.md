@@ -1,24 +1,24 @@
 # Dumping Firmware - Wifi Board
-- Create a new folder in your home directory, cd in to the new directory and clone the lateset version of rkbin 
+- Create a new folder in your home directory, cd in to the new directory and clone the latest version of rkbin. 
 ```
 $ mkdir eufy
 $ cd eufy
 $ git clone https://github.com/rockchip-linux/rkbin.git
 ```
-- Open up you l70 to expose the wifi-board.  
+- Open up you L70 to expose the wifi-board.  
 - Remove the small plastic cover under the lid to expose the debug micro USB port.
 ![GitHub Image](https://github.com/spoonieau/Tetrodotoxin/blob/main/Images/usbdebug.jpg)  
-- Get a good quallity USB-A to micro USB cable
-- The RockChip RK3308 and have two recovery boot modes MaskRom and Gadget mode. Bord needs to be in Gaget mode to get acces to the storage.
-- While the unit is powered off and holding down holding down 'SW1RESET' button, plug in the usb cable in to the pc and the usb micro debug port. The low LED will lite up take finger off the 'SW1RESET'   button.  
+- Get a good quallity USB-A to micro-USB cable
+- The RockChip RK3308 has two recovery boot modes MaskRom mode and Gadget mode. Board needs to be in Gaget mode to get acces to the storage.
+- While the unit is powered off and holding down holding down 'SW1RESET' button, plug in the usb cable in to the pc and the usb micro debug port. The board LED will lite up, take your finger off the 'SW1RESET' button.  
 ![GitHub Image](https://github.com/spoonieau/Tetrodotoxin/blob/main/Images/WifiBoardBoot.jpg)
 
-- If successful lsusb will dispaly something like 
+- If successful lsusb will dispaly something like.  
 ```
 $ lsusb
 Bus 001 Device 007: ID 2207:330d Fuzhou Rockchip Electronics Company USB download gadget
 ```
-Now run the 'upgrade_tool' from the git cloned previously.
+Now run the 'upgrade_tool' from the rkbin folder, cloned previously.
 ```
 $ cd rkbin
 $ cd tools
