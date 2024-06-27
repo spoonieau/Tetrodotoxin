@@ -97,7 +97,7 @@ WARNING: suspend_mode_handler: Not support call: 0x4
 [    0.107322] Bluetooth: HCI socket layer initialized
 [    0.107338] Bluetooth: L2CAP socket layer initialized
 [    0.107372] Bluetooth: SCO socket layer initialized
-[    0.108471] rockchip-cpuinfo cpuinfo: Serial         : 3f2ed2cd6f9e30b2
+[    0.108471] rockchip-cpuinfo cpuinfo: Serial         : XXXXXXXXXXXXXXXX
 [    0.108999] clocksource: Switched to clocksource arch_sys_counter
 [    0.111394] thermal thermal_zone1: power_allocator: sustainable_power will be estimated
 [    0.111723] NET: Registered protocol family 2
@@ -337,7 +337,7 @@ E: [pulseaudio] main.c: Daemon startup failed.
 [    4.854647] RTW: rtw_macaddr_cfg mac addr:30:49:58:83:25:cd
 [    4.854771] RTW: bDriverStopped:True, bSurpriseRemoved:False, bup:0, hw_init_completed:0
 [    4.855744] RTW: rtw_alloc_macid((null)) if2, mac_addr:ff:ff:ff:ff:ff:ff macid:1
-[    4.855792] RTW: rtw_drv_add_vir_if if2 mac_addr : 32:49:58:83:25:cd
+[    4.855792] RTW: rtw_drv_add_vir_if if2 mac_addr : XX:XX:XX:XX:XX:XX
 [    4.855876] RTW: rtw_wiphy_alloc(phy0)
 [    4.855888] RTW: rtw_wdev_alloc(padapter=ffffff8008976000)
 [    4.855920] RTW: rtw_wiphy_alloc(phy1)
@@ -345,14 +345,14 @@ E: [pulseaudio] main.c: Daemon startup failed.
 [    4.855942] RTW: rtw_wiphy_register(phy0)
 [    4.855951] RTW: Register RTW cfg80211 vendor cmd(0x67) interface
 [    4.856246] RTW: rtw_reg_notifier: NL80211_REGDOM_SET_BY_CORE
-[    4.856629] RTW: rtw_ndev_init(wlan0) if1 mac_addr=30:49:58:83:25:cd
+[    4.856629] RTW: rtw_ndev_init(wlan0) if1 mac_addr=XX:XX:XX:XX:XX:XX
 [    4.857157] RTW: rtw_ndev_notifier_call(wlan0) state:16
 [    4.859134] RTW: rtw_ndev_notifier_call(wlan0) state:5
 [    4.860818] RTW: cfg80211_rtw_get_txpower
 [    4.862699] RTW: rtw_wiphy_register(phy1)
 [    4.862857] RTW: Register RTW cfg80211 vendor cmd(0x67) interface
 [    4.863567] RTW: rtw_reg_notifier: NL80211_REGDOM_SET_BY_CORE
-[    4.864848] RTW: rtw_ndev_init(p2p0) if2 mac_addr=32:49:58:83:25:cd
+[    4.864848] RTW: rtw_ndev_init(p2p0) if2 mac_addr=XX:XX:XX:XX:XX:XX
 [    4.865985] RTW: rtw_ndev_notifier_call(p2p0) state:16
 [    4.871768] RTW: rtw_ndev_notifier_call(p2p0) state:5
 [    4.873126] RTW: gpio_hostwakeup_alloc_irq : oob_irq = 30
@@ -382,16 +382,16 @@ E: [pulseaudio] main.c: Daemon startup failed.
 [    5.060136] RTW:  <=== rtl8188f_FirmwareDownload()
 [    5.060151] RTW: HalDetectPwrDownMode(): PDN=0
 [    5.060159] RTW: Set RF Chip ID to RF_6052 and RF type to 0.
-[    5.369182] RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =30:49:58:83:25:cd
-[    5.369330] RTW: rtw_hal_set_macaddr_port p2p0- hw port(1) mac_addr =32:49:58:83:25:cd
-[    5.369569] RTW: rtw_hal_get_macaddr_port wlan0- hw port(0) mac_addr =30:49:58:83:25:cd
+[    5.369182] RTW: rtw_hal_set_macaddr_port wlan0- hw port(0) mac_addr =XX:XX:XX:XX:XX:XX
+[    5.369330] RTW: rtw_hal_set_macaddr_port p2p0- hw port(1) mac_addr =XX:XX:XX:XX:XX:XX
+[    5.369569] RTW: rtw_hal_get_macaddr_port wlan0- hw port(0) mac_addr =XX:XX:XX:XX:XX:XX
 [    5.369588] RTW: wlan0- hw port(0) mac_addr =30:49:58:83:25:cd
-[    5.369712] RTW: rtw_hal_get_macaddr_port p2p0- hw port(1) mac_addr =32:49:58:83:25:cd
-[    5.369729] RTW: p2p0- hw port(1) mac_addr =32:49:58:83:25:cd
+[    5.369712] RTW: rtw_hal_get_macaddr_port p2p0- hw port(1) mac_addr =XX:XX:XX:XX:XX:XX
+[    5.369729] RTW: p2p0- hw port(1) mac_addr =XX:XX:XX:XX:XX:XX
 [    5.369855] RTW: [HW_VAR_ENABLE_RX_BAR] 0x6A2=0x500
 [    5.371702] RTW: rtw_rf_get_kfree_tx_gain_offset path:0, ch:6, bb_gain_sel:0, kfree_offset:-2
 [    5.372019] RTW: kfree gain_offset 0x55:0x82060 RTW:  after :0xa060
-[    5.372616] RTW: MAC Address = 30:49:58:83:25:cd
+[    5.372616] RTW: MAC Address = XX:XX:XX:XX:XX:XX
 [    5.372628] RTW: rtw_start_drv_threads(wlan0) start RTW_XMIT_THREAD
 [    5.372782] RTW: rtw_start_drv_threads(wlan0) start RTW_CMD_THREAD
 [    5.372912] RTW: rtl8188f_start_thread(wlan0) start RTWHALXT
@@ -421,8 +421,8 @@ play WARN alsa: can't encode 0-bit Unknown or not applicable
 [    7.379638] RTW: nolinked power save enter
 [   11.957654] Current WiFi chip is RTL8189FS.
 killall: hostapd: no process killed
-[   12.643278] RTW: wlan0- hw port(0) mac_addr =30:49:58:83:25:cd
-[   12.643437] RTW: p2p0- hw port(1) mac_addr =32:49:58:83:25:cd
+[   12.643278] RTW: wlan0- hw port(0) mac_addr =XX:XX:XX:XX:XX:XX
+[   12.643437] RTW: p2p0- hw port(1) mac_addr =XX:XX:XX:XX:XX:XX
 [   12.646123] RTW: nolinked power save leave
 rm: can't remove '/tmp/music': No such file or directory
 killall: cpm: no process killed
@@ -454,8 +454,8 @@ input-event-daemon: Start listening on 3 devices...
 eufy-RoboVac login: [   14.308152] RTW: nolinked power save enter
 [   14.533091] of_dma_request_slave_channel: dma-names property of node '/serial@ff0b0000' missing or empty
 [   14.533137] ttyS1 - failed to request DMA, use interrupt mode
-[   14.749761] RTW: wlan0- hw port(0) mac_addr =30:49:58:83:25:cd
-[   14.749911] RTW: p2p0- hw port(1) mac_addr =32:49:58:83:25:cd
+[   14.749761] RTW: wlan0- hw port(0) mac_addr =XX:XX:XX:XX:XX:XX
+[   14.749911] RTW: p2p0- hw port(1) mac_addr =XX:XX:XX:XX:XX:XX
 [   14.752591] RTW: nolinked power save leave
 [   14.752767] RTW: rtw_set_802_11_connect(wlan0)  fw_state=0x00000000
 [   15.103947] RTW: start auth
@@ -463,7 +463,7 @@ eufy-RoboVac login: [   14.308152] RTW: nolinked power save enter
 [   15.111259] RTW: assoc success
 [   15.111554] IPv6: ADDRCONF(NETDEV_CHANGE): wlan0: link becomes ready
 [   15.114641] RTW: recv eapol packet
-[   15.116256] RTW: ============ STA [1c:3b:f3:a8:7c:cc]  ===================
+[   15.116256] RTW: ============ STA [XX:XX:XX:XX:XX:XX]  ===================
 [   15.116307] RTW: mac_id : 0
 [   15.116341] RTW: wireless_mode : 0x0a
 [   15.116361] RTW: mimo_type : 0
@@ -482,8 +482,8 @@ eufy-RoboVac login: [   14.308152] RTW: nolinked power save enter
 [   15.119642] RTW: send eapol packet
 [   15.159702] RTW: recv eapol packet
 [   15.161205] RTW: send eapol packet
-[   15.162436] RTW: set pairwise key camid:0, addr:1c:3b:f3:a8:7c:cc, kid:0, type:AES
-[   15.163459] RTW: set group key camid:1, addr:1c:3b:f3:a8:7c:cc, kid:1, type:AES
+[   15.162436] RTW: set pairwise key camid:0, addr:XX:XX:XX:XX:XX:XX, kid:0, type:AES
+[   15.163459] RTW: set group key camid:1, addr:XX:XX:XX:XX:XX:XX, kid:1, type:AES
 
 Login timed out after 60 seconds
 eufy-RoboVac login:
