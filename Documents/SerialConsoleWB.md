@@ -1,7 +1,7 @@
 # Serial Console Connection - Wifi Board
 - Using a ```Silicon Labs CP210x UART Bridge```.
 - Using picocom ```$sudo pacman -S picocom```.
-- Connection.   
+- Connection below.   
   
 ![GitHub Image](https://github.com/spoonieau/Tetrodotoxin/blob/main/Images/SerialHookup.jpg)
 
