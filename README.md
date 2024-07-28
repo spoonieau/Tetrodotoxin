@@ -13,7 +13,8 @@ In its stock configuration L70 is a [tuya](https://www.tuya.com "tuya") based de
 [Networking Info](https://github.com/spoonieau/Tetrodotoxin/blob/main/Documents/Network.md "Networking Info")     
 [Serial Console - WifiBoard](https://github.com/spoonieau/Tetrodotoxin/blob/main/Documents/SerialConsoleWB.md "Serial Console WifiBoard")   
 [Dumping Firmware - WifiBoard](https://github.com/spoonieau/Tetrodotoxin/blob/main/Documents/DumpingFirmwareWB.md "Dumping Firmware WifiBoard")   
-[Getting ROOT - WifiBoard](https://github.com/spoonieau/Tetrodotoxin/blob/main/Documents/GettingROOTWB.md "Getting ROOT WifiBoard")   
+[Getting ROOT - WifiBoard](https://github.com/spoonieau/Tetrodotoxin/blob/main/Documents/GettingROOTWB.md "Getting ROOT WifiBoard")  
+[LDRobot LD00 - Lidar](https://github.com/spoonieau/Tetrodotoxin/blob/main/Documents/LDRobotLD00Lidar.md)
 
 The unit comprises of two control PCB boards and one Lidar. 
 ## Wifi Board
@@ -26,7 +27,7 @@ This board contains
 - Populated Uart2 port. 
 - Two Push buttons labled 'SW1 RESET' and 'SW2'.
 - A unpopulated micro-usb named USB1.
-- Connection for the JOVE2 JVE-S2 Lidar.
+- Connection for the LDRobot LD00 Lidar.
 - Connection to an external micro USB debug port. 
 
 ## Function Board 
